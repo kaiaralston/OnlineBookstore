@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="backgroundWid" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#backgroundWid{
+background-color:qlineargradient(spread:pad, x1:0.526892, y1:1, x2:0.493, y2:0, stop:0 rgba(168, 177, 231, 255), stop:0.689655 rgba(231, 188, 235, 255))}
+</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>351</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 48pt &quot;Avenir Next&quot;;color: rgb(255, 255, 255);
+color: rgb(10, 6, 17);</string>
+     </property>
+     <property name="text">
+      <string>Manage Books</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>711</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(10, 12, 23);
+font: 23pt &quot;Hoefler Text&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Here you can add, list, update, or delete users who have created an account</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="add_book_btn">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>400</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(8, 9, 14);
+font: 24pt &quot;Georgia&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Add a Book</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>500</y>
+       <width>161</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(9, 6, 18)</string>
+     </property>
+     <property name="text">
+      <string>Back to Admin Home</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cancel_btn">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>470</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(8, 9, 14);
+font: 24pt &quot;Georgia&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Cancel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="browse_btn">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>470</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(8, 9, 14);
+font: 24pt &quot;Georgia&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Browse</string>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>691</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>689</width>
+        <height>249</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>671</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="layout_books"/>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>browse_btn</tabstop>
+  <tabstop>add_book_btn</tabstop>
+  <tabstop>cancel_btn</tabstop>
+  <tabstop>backButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

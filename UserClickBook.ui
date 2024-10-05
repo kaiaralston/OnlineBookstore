@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="backgroundWid" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#backgroundWid{
+background-color:qlineargradient(spread:pad, x1:0.517241, y1:1, x2:0.53202, y2:0.0397727, stop:0.0689655 rgba(99, 31, 84, 255), stop:1 rgba(255, 255, 255, 255))}
+</string>
+    </property>
+    <widget class="QLabel" name="titleDisp">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>751</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 48pt &quot;Avenir Next&quot;;color: rgb(255, 255, 255);
+color: rgb(10, 6, 17);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>500</y>
+       <width>161</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(9, 6, 18)</string>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="authorDisp">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>170</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="user_le_4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Author:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="book_photo">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>170</y>
+       <width>231</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="user_le_7">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>140</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 23pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Cover:</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="orderNow">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>390</y>
+       <width>211</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(16, 9, 28);
+font: 24pt &quot;Bodoni 72&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Order Now!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="user_le_8">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>230</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Stock:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="user_le_5">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>290</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Price:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="stockDisp">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>230</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="priceDisp">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>290</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgb(16, 10, 32);
+font: 35pt &quot;Charter&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
